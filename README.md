@@ -108,12 +108,13 @@
 
 ```csharp
 1.  string name = "Hello";
-    Console.WriteLine(String.Format("{0} there. I said {0}! {0}???", name)); <br>
-       ![](https://github.com/HoneyApinya/LAB-05/blob/master/55.1.png?raw=true)<br>
+    Console.WriteLine(String.Format("{0} there. I said {0}! {0}???", name));
+    
+       ![](https://github.com/HoneyApinya/LAB-05/blob/master/55.1.png?raw=true)
        
-2.    Console.WriteLine("{2:d} {0:d} {1:d}", 1, 2, 3);<br>
+2.    Console.WriteLine("{2:d} {0:d} {1:d}", 1, 2, 3);
         ![](https://github.com/HoneyApinya/LAB-05/blob/master/55.2.png?raw=true)
-3.    Console.WriteLine("Hello " + "World");<br>
+3.    Console.WriteLine("Hello " + "World");
         ![](https://github.com/HoneyApinya/LAB-05/blob/master/55.3.png?raw=true)
 4.    Console.WriteLine("Here comes a slash \\");<br>
         ![](https://github.com/HoneyApinya/LAB-05/blob/master/55.4.png?raw=true)
