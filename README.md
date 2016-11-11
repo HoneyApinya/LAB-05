@@ -108,22 +108,38 @@
 
 ```csharp
 1.  string name = "Hello";
-    Console.WriteLine(String.Format("{0} there. I said {0}! {0}???", name));
-2.    Console.WriteLine("{2:d} {0:d} {1:d}", 1, 2, 3);
-3.    Console.WriteLine("Hello " + "World");
-4.    Console.WriteLine("Here comes a slash \\");
-5.    Console.WriteLine("|{0, 10}|", 999);
-6.    Console.WriteLine("|{0,-10}|", 000);
-7.    Console.WriteLine("The value: {0}.", 500);
-8.    Console.WriteLine("The value: {0:C}.", 500);
-9.    Console.WriteLine("{0,-10:F4}", 12.3456789);
-10.   Console.WriteLine("{0,-10:C}", 12.3456789);
-11.   Console.WriteLine("{0,-10:E3}", 12.3456789);
-12.   Console.WriteLine("{0,-10:x}", 65535);
-13.   Console.WriteLine("{0,-10:X}", 65535);
+    Console.WriteLine(String.Format("{0} there. I said {0}! {0}???", name)); <br>
+       ![](https://github.com/HoneyApinya/LAB-05/blob/master/55.1.png?raw=true)<br>
+       
+2.    Console.WriteLine("{2:d} {0:d} {1:d}", 1, 2, 3);<br>
+        ![](https://github.com/HoneyApinya/LAB-05/blob/master/55.2.png?raw=true)
+3.    Console.WriteLine("Hello " + "World");<br>
+        ![](https://github.com/HoneyApinya/LAB-05/blob/master/55.3.png?raw=true)
+4.    Console.WriteLine("Here comes a slash \\");<br>
+        ![](https://github.com/HoneyApinya/LAB-05/blob/master/55.4.png?raw=true)
+5.    Console.WriteLine("|{0, 10}|", 999);<br>
+        ![](https://github.com/HoneyApinya/LAB-05/blob/master/55.5.png?raw=true)
+6.    Console.WriteLine("|{0,-10}|", 000);<br>
+        ![](https://github.com/HoneyApinya/LAB-05/blob/master/55.6.png?raw=true)
+7.    Console.WriteLine("The value: {0}.", 500);<br>
+        ![](https://github.com/HoneyApinya/LAB-05/blob/master/55.7.png?raw=true)
+8.    Console.WriteLine("The value: {0:C}.", 500);<br>
+        ![](https://github.com/HoneyApinya/LAB-05/blob/master/55.8.png?raw=true)
+9.    Console.WriteLine("{0,-10:F4}", 12.3456789);<br>
+        ![](https://github.com/HoneyApinya/LAB-05/blob/master/55.9.png?raw=true)
+10.   Console.WriteLine("{0,-10:C}", 12.3456789);<br>
+        ![](https://github.com/HoneyApinya/LAB-05/blob/master/55.10.png?raw=true)
+11.   Console.WriteLine("{0,-10:E3}", 12.3456789);<br>
+        ![](https://github.com/HoneyApinya/LAB-05/blob/master/55.92.png?raw=true)
+12.   Console.WriteLine("{0,-10:x}", 65535);<br>
+        ![](https://github.com/HoneyApinya/LAB-05/blob/master/55.922.png?raw=true)
+13.   Console.WriteLine("{0,-10:X}", 65535);<br>
+        ![](https://github.com/HoneyApinya/LAB-05/blob/master/55.93.png?raw=true)
 14.   int i; 
       Console.WriteLine("Value\tSquared\tCubed"); 
       for(i = 1; i < 10; i++) 
-          Console.WriteLine("{0}\t{1}\t{2}", i, i*i, i*i*i); 
-15.    Console.WriteLine("{0:#.###}.", 1234.56789);
+          Console.WriteLine("{0}\t{1}\t{2}", i, i*i, i*i*i); <br>
+        ![](https://github.com/HoneyApinya/LAB-05/blob/master/55.94.png?raw=true)         
+15.    Console.WriteLine("{0:#.###}.", 1234.56789);<br>
+        ![](https://github.com/HoneyApinya/LAB-05/blob/master/55.95.png?raw=true)
 ```
